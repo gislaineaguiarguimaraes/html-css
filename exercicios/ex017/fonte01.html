@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            /*para font-weight existem essas possibilidades:border: lighter normail bold bolder;*/
+        }
+        h1 {
+            /*Shorthand font (Uma mãozinha, colocar todas as especificações em uma unica linha, a ordem dos fatores é de extrema importancia)
+            -font-style -> font-weight -> font-size -> font-family
+            
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;*/
+
+            font: italic bolder 3em 'Arial', sans-serif;  
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, magnam, exercitationem laudantium neque, ipsam a optio rem sequi expedita amet repellendus accusamus quisquam at mollitia odit suscipit dignissimos nihil placeat! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa provident saepe officiis aut ducimus, eos accusantium voluptates dolores nostrum. Aliquid, quos numquam porro earum reprehenderit at consectetur ullam quam dolorum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, culpa dignissimos repellat voluptas magni, optio ipsum amet ullam perspiciatis maxime architecto reiciendis consequatur porro! Repellat magni optio quam excepturi dolorem.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ducimus voluptates earum. Labore, perferendis magni? Laboriosam harum dicta veniam deleniti amet facere beatae illo, temporibus, nisi voluptatum culpa itaque ducimus.</p>
+</body>
+</html>
